@@ -30,73 +30,10 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="/home/rain/Descargas/javax.servlet.jar"/>
 	<classpathentry kind="lib" path="/home/rain/Descargas/javax.servlet.jar.zip"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-bpmn-converter-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-bpmn-converter-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-bpmn-converter-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-bpmn-layout-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-bpmn-layout-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-bpmn-layout-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-bpmn-model-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-bpmn-model-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-bpmn-model-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-camel-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-camel-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-camel-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-cdi.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-cdi-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-cdi-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-common-rest-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-common-rest-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-common-rest-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-crystalball-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-crystalball-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-crystalball-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-cxf-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-cxf-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-cxf-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-diagram-rest-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-diagram-rest-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-diagram-rest-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-engine-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-engine-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-engine-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-explorer-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-explorer-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-explorer-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-image-generator-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-image-generator-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-image-generator-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-jmx-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-jmx-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-jmx-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-json-converter-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-json-converter-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-json-converter-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-ldap-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-ldap-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-ldap-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-modeler-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-modeler-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-modeler-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-mule-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-mule-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-mule-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-osgi-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-osgi-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-osgi-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-process-validation-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-process-validation-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-process-validation-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-rest-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-rest-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-rest-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-simple-workflow-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-simple-workflow-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-simple-workflow-5.22.0-sources.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-spring-5.22.0.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-spring-5.22.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/home/rain/Descargas/Procesos_de_Negocios_999_-_2018-03jun2018_201629PM/Tools/activiti-5.22.0/libs/activiti-spring-5.22.0-sources.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="/home/rain/Descargas/com.mysql.jdbc_5.1.5.jar"/>
+	<classpathentry kind="lib" path="/home/rain/Descargas/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/maslibrerias"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/activiti"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
