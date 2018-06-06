@@ -11,6 +11,6 @@ public class UserController extends HttpServlet {
 	   public void doGet (HttpServletRequest rq, HttpServletResponse rp) throws ServletException, IOException {
 				String id = rq.getParameter("nombre").toString();
 				String password = rq.getParameter("password");
-				if(USER_SERVICE.isUser(id) == 1) rp.sendRedirect("home.jsp");
+				if(USER_SERVICE.existUser(id)) rp.sendRedirect("home.jsp");
 	    }
 }

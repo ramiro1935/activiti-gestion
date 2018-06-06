@@ -26,7 +26,7 @@ public class USER_SERVICE {
 	private static ProcessEngine processEngine;
 	private static IdentityService identityService;
 
-	public static long isUser(String id){
+	public static boolean existUser(String id){
 		processEngine = ProcessEngineConfiguration
 		.createStandaloneProcessEngineConfiguration()
 		.setJdbcDriver("com.mysql.jdbc.Driver")
@@ -34,6 +34,6 @@ public class USER_SERVICE {
 		.setJdbcPassword("root").setJdbcUsername("root")
 		.buildProcessEngine();
 		identityService = processEngine.getIdentityService();
-		return 	identityService.createUserQuery().userId(id).count();
+		return (identityService.createUserQuery().userId(id).count() == 1);
 	}
 }
