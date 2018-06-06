@@ -27,13 +27,13 @@ public class USER_SERVICE {
 	private static IdentityService identityService;
 
 	public static boolean existUser(String id){
-		processEngine = ProcessEngineConfiguration
-		.createStandaloneProcessEngineConfiguration()
-		.setJdbcDriver("com.mysql.jdbc.Driver")
-		.setJdbcUrl("jdbc:mysql://192.168.56.100:3306/activiti")
-		.setJdbcPassword("root").setJdbcUsername("root")
-		.buildProcessEngine();
-		identityService = processEngine.getIdentityService();
-		return (identityService.createUserQuery().userId(id).count() == 1);
+			processEngine = ProcessEngineConfiguration
+			.createStandaloneProcessEngineConfiguration()
+			.setJdbcDriver("com.mysql.jdbc.Driver")
+			.setJdbcUrl("jdbc:mysql://192.168.56.100:3306/activiti")
+			.setJdbcPassword("root").setJdbcUsername("root")
+			.buildProcessEngine();
+			identityService = processEngine.getIdentityService();
+			return (identityService.createUserQuery().userId(id).count() == 1);
+		}
 	}
-}
