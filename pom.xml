@@ -46,13 +46,12 @@
         <artifactId>javax.servlet-api</artifactId>
         <version>3.0.1</version>
         <scope>provided</scope>
-  </dependency>
-    <dependency>
-    <groupId>junit</groupId>     <!-- NOT org.junit here -->
-    <artifactId>junit-dep</artifactId>
-    <version>4.8.2</version>
-  </dependency>
-
+    </dependency>
+      <dependency>
+      <groupId>junit</groupId>     <!-- NOT org.junit here -->
+      <artifactId>junit-dep</artifactId>
+      <version>4.8.2</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>activiti</finalName>
