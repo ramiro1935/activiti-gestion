@@ -9,8 +9,14 @@ import java.io.PrintWriter;
 
 public class UserController extends HttpServlet {
 	public void doGet (HttpServletRequest rq, HttpServletResponse rp) throws ServletException, IOException {
-			String id = rq.getParameter("nombre").toString();
-			String password = rq.getParameter("password");
-			if(USER_SERVICE.existUser(id)) rp.sendRedirect("home.jsp");
+			PrintWriter out = rp.getWriter();
+			String id = rq.getParameter("email").toString();
+			MySQL db = new MySQL();
+			db.MySQLConnection("root","root");
+			if(db.existUser(id)) rp.sendRedirect("home.jsp");
+			else {
+			   out.println("<meta http-equiv='refresh' content='3;URL=index.jsp'>");
+			   out.println("<p style='color:red;'>User or password incorrect!</p>");
+			}
 		}
 }
