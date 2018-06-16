@@ -33,7 +33,7 @@
 </style>
 <body>
 	<div class="login-form">
-	    <form action="BuyServlet">
+	    <form action="PurchaseServlet" method="POST">
 	        <h2 class="text-center">Ingresar compra</h2>
 	        <div class="form-group">
 	            <input type="date" name="fecha" class="form-control" placeholder="Fecha" required="required">

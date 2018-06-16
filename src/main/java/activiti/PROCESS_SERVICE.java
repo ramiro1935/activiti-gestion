@@ -13,6 +13,7 @@ import org.activiti.engine.RepositoryService;
 import org.activiti.engine.RuntimeService;
 import org.activiti.engine.TaskService;
 import org.activiti.engine.runtime.ProcessInstance;
+import org.activiti.engine.impl.identity.Authentication;
 import org.activiti.engine.runtime.ProcessInstanceQuery;
 import org.activiti.engine.task.Task;
 import org.activiti.engine.task.TaskQuery;
@@ -21,19 +22,30 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.activiti.engine.identity.*;
 
-public class USER_SERVICE {
+public class PROCESS_SERVICE {
 
 	private static ProcessEngine processEngine;
 	private static IdentityService identityService;
 
-	public static boolean existUser(String id){
-			processEngine = ProcessEngineConfiguration
+	public void activitiConnection() {
+		processEngine = ProcessEngineConfiguration
 			.createStandaloneProcessEngineConfiguration()
 			.setJdbcDriver("com.mysql.jdbc.Driver")
 			.setJdbcUrl("jdbc:mysql://192.168.56.100:3306/activiti")
 			.setJdbcPassword("root").setJdbcUsername("root")
 			.buildProcessEngine();
 			identityService = processEngine.getIdentityService();
-			return (identityService.createUserQuery().userId(id).count() == 1);
-		}
+		Authentication.setAuthenticatedUserId("kermit");
 	}
+
+
+	public void initProcess(String fecha, String items, String monto){
+		RuntimeService runtimeService = processEngine.getRuntimeService();
+		ProcessInstance	processInstance = runtimeService.startProcessInstanceByKey("id_interaccionApi");
+		System.out.println("identificador de la instancia: "+processInstance);
+		
+		runtimeService.setVariable(processInstance.getId(),"fecha",fecha);
+		runtimeService.setVariable(processInstance.getId(),"items",items);
+		runtimeService.setVariable(processInstance.getId(),"monto",monto);				
+	}
+}

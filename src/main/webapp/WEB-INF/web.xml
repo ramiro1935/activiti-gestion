@@ -5,11 +5,19 @@
     xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
     http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
   <servlet>
-    <servlet-name>Hello</servlet-name>
+    <servlet-name>User</servlet-name>
     <servlet-class>activiti.UserController</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Hello</servlet-name>
-    <url-pattern>/HelloServlet</url-pattern>
+    <servlet-name>User</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Purchase</servlet-name>
+    <servlet-class>activiti.PurchaseController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Purchase</servlet-name>
+    <url-pattern>/PurchaseServlet</url-pattern>
   </servlet-mapping>
 </web-app>
