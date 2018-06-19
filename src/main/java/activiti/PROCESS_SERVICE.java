@@ -27,6 +27,8 @@ public class PROCESS_SERVICE {
 	private static ProcessEngine processEngine;
 	private static IdentityService identityService;
 
+	// Conexion con la base de datos de activiti y configuracion del motor activiti
+	// Servidor: localhost username:activiti password:tetra10
 	public void activitiConnection() {
 		processEngine = ProcessEngineConfiguration
 			.createStandaloneProcessEngineConfiguration()
@@ -38,14 +40,22 @@ public class PROCESS_SERVICE {
 		Authentication.setAuthenticatedUserId("kermit");
 	}
 
-
-	public void initProcess(String fecha, String items, String monto){
+	// Inicializacion del proceso con id '%name'
+	// Seteo de variables (fecha, items, monto)
+	public boolean initProcess(String fecha, String items, String monto){
 		RuntimeService runtimeService = processEngine.getRuntimeService();
-		ProcessInstance	processInstance = runtimeService.startProcessInstanceByKey("process_con_ciclo");
+		try{
+			ProcessInstance	processInstance = runtimeService.startProcessInstanceByKey("asdads");
+			runtimeService.setVariable(processInstance.getId(),"fecha",fecha);
+			runtimeService.setVariable(processInstance.getId(),"items",items);
+			runtimeService.setVariable(processInstance.getId(),"monto",monto);
+		}
+		catch(){
+			return false;
+		}
+		return true;
+
 		System.out.println("identificador de la instancia: "+processInstance);
-		
-		runtimeService.setVariable(processInstance.getId(),"fecha",fecha);
-		runtimeService.setVariable(processInstance.getId(),"items",items);
-		runtimeService.setVariable(processInstance.getId(),"monto",monto);				
+
 	}
 }

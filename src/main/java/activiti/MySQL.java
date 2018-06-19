@@ -11,6 +11,7 @@ public class MySQL {
 
     private static Connection Conexion;
 
+    // Conexion con la base de datos (localhost)
     public void MySQLConnection(String user, String pass) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -23,6 +24,7 @@ public class MySQL {
         }
     }
 
+    // Cerrar conexion base de datos (localhost)
     public void closeConnection() {
         try {
             Conexion.close();
@@ -32,6 +34,7 @@ public class MySQL {
         }
     }
 
+    // Verifica que el usuario exista en base de datos (localhost)
 		public boolean existUser(String email) {
 			 try {
 					 String Query = "SELECT * FROM Clientes where email='"+email+"';";
