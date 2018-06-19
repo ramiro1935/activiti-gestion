@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
+import java.util.List;
 
 // Controlador Procesos de activiti
 // Renderiza la compra si fue satisfactoria
@@ -29,6 +30,10 @@ public class PurchaseController extends HttpServlet {
       out.println("location='home.jsp';");
       out.println("</script>");
       
+      List<String> pl = ps.listProcesses();
+      rq.setAttribute("procesos", pl);
+      rq.getRequestDispatcher("activeProcesses.jsp").forward(rq, rp);
+
 
 
     }
