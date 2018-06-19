@@ -15,10 +15,13 @@ public class PurchaseController extends HttpServlet {
       String items = rq.getParameter("items").toString();
       String monto = rq.getParameter("monto").toString();
       ps.activitiConnection();
-      ps.initProcess(fecha,items,monto);
-      out.println("<h1>"+fecha+"</h1>");
-      out.println("<h1>"+items+"</h1>");
-      out.println("<h1>"+monto+"</h1>");
+
+        ps.initProcess(fecha,items,monto);
+        out.println("<script type=\"text/javascript\">");
+        out.println("alert('Proceso creado exitosamente.');");
+        out.println("location='home.jsp';");
+        out.println("</script>");
+      
 
 
     }
