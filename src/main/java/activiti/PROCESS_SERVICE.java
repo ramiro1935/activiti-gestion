@@ -31,8 +31,8 @@ public class PROCESS_SERVICE {
 		processEngine = ProcessEngineConfiguration
 			.createStandaloneProcessEngineConfiguration()
 			.setJdbcDriver("com.mysql.jdbc.Driver")
-			.setJdbcUrl("jdbc:mysql://192.168.56.100:3306/activiti")
-			.setJdbcPassword("root").setJdbcUsername("root")
+			.setJdbcUrl("jdbc:mysql://mail.evelia.unrc.edu.ar:3306/activiti")
+			.setJdbcPassword("tetra10").setJdbcUsername("activiti")
 			.buildProcessEngine();
 			identityService = processEngine.getIdentityService();
 		Authentication.setAuthenticatedUserId("kermit");
@@ -41,7 +41,7 @@ public class PROCESS_SERVICE {
 
 	public void initProcess(String fecha, String items, String monto){
 		RuntimeService runtimeService = processEngine.getRuntimeService();
-		ProcessInstance	processInstance = runtimeService.startProcessInstanceByKey("id_interaccionApi");
+		ProcessInstance	processInstance = runtimeService.startProcessInstanceByKey("process_con_ciclo");
 		System.out.println("identificador de la instancia: "+processInstance);
 		
 		runtimeService.setVariable(processInstance.getId(),"fecha",fecha);
