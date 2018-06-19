@@ -27,6 +27,8 @@ public class PROCESS_SERVICE {
 	private static ProcessEngine processEngine;
 	private static IdentityService identityService;
 
+	// Conexion con la base de datos de activiti y configuracion del motor activiti
+	// Servidor: localhost username:activiti password:tetra10
 	public void activitiConnection() {
 		processEngine = ProcessEngineConfiguration
 			.createStandaloneProcessEngineConfiguration()
@@ -38,6 +40,8 @@ public class PROCESS_SERVICE {
 		Authentication.setAuthenticatedUserId("kermit");
 	}
 
+	// Inicializacion del proceso con id '%name'
+	// Seteo de variables (fecha, items, monto)
 
 	public void initProcess(String fecha, String items, String monto){
 		RuntimeService runtimeService = processEngine.getRuntimeService();

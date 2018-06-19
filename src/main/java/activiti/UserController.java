@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
 
+// Controlador Login
 public class UserController extends HttpServlet {
 	public void doGet (HttpServletRequest rq, HttpServletResponse rp) throws ServletException, IOException {
 			PrintWriter out = rp.getWriter();
